@@ -1,16 +1,17 @@
 import "./Navbar.css";
-import logo from "../../assets/logo.png";
+//import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
     <nav className="container">
-      <img src={logo} alt="" className="logo" />
+      <p>
+        <span>AirandX</span>
+      </p>
       <ul>
         <li>Home</li>
-        <li>Career</li>
         <li>About us</li>
-        <li>Careers</li>
-        <li>Staffs</li>
+        <li>Services</li>
+        <li>Blogs</li>
         <li>
           <button className="btn">Contact us</button>
         </li>
