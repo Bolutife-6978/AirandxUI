@@ -22,3 +22,7 @@ nav p span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.dark-nav {
+  background: rgba(8, 0, 58, 0.7);
+  transition: 0.5s;
+}
